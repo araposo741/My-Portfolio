@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const commandSpan = document.querySelector('.command-text');
 
     if (terminalContainer && terminalContent && commandSpan){
-        const commandText = "git clone  "; //Colocar o caminho do portfolio do github
+        const commandText = "git clone https://araposo741.github.io/My-Portfolio/ ";
 
         let i = 0;
         const typeCommand = () => {
