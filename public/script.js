@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const commandSpan = document.querySelector('.command-text');
 
     if (terminalContainer && terminalContent && commandSpan){
-        const commandText = "git clone https://araposo741.github.io/My-Portfolio/ ";
+        const commandText = "git clone https://github.com/araposo741/My-Portfolio";
 
         let i = 0;
         const typeCommand = () => {
@@ -201,4 +201,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-}) 
+});
